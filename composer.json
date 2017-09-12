@@ -1,0 +1,35 @@
+{
+  "name": "objective-php/ws-client-package",
+  "description": "Web socket client for Objective PHP",
+  "type": "library",
+  "keywords": [
+    "hoa",
+    "web-socket",
+    "objective php"
+  ],
+  "homepage": "https://github.com/objective-php/ws-client-package",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Jordan Heussler",
+      "email": "jhe@opcoding.eu"
+    },
+    {
+      "name": "Boris Cerati",
+      "email": "bce@opcoding.eu"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "hoa/websocket": "^3.17"
+  },
+  "require-dev": {
+    "codeception/codeception": "^2.0",
+    "objective-php/application": "^1.0.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "ObjectivePHP\\Package\\WebSocketClient\\": "src/"
+    }
+  }
+}
